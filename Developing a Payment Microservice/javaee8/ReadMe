@@ -1,0 +1,7 @@
+Create a project javaee8.create a class HealthCheck with a @Path("healthcheck").
+
+Create microservice. Create a @Get,@Path("pid") method public long pid() which returns ProcessHandle.current().pid().Create a @Get,@Path("full") method getProperties() which produces MediaType.APPLICATION_JSON.CreateJSonBuilder object inside it.Create info object by calling ProcessHandle.current().info().Add builder.add("totalCpuDuration",processInfo.totalCpuDuration().get().toMillis().Add builder.add("startInstanceMilli",processInfo.totalCpuDuration().get().toEpochMilli().Build and run see the response.
+
+Create a PaymentRestService.Run and see the output
+
+Create a microservices for healthcheck call from your project deploy and run.

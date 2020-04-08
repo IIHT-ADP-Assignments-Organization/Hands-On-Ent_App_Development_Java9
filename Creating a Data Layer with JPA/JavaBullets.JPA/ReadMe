@@ -1,0 +1,7 @@
+Create database connection in eclipse for derby database.Create a table and add records.See the table and check records.Disconnect from datasource.
+
+Open project javabullet_JPA ,Configure persistence.xml and server.xml.Open the class DatabaseServlet.Map the server.Run and see the output on LibertyServer.
+
+Open Project and map Enterant and Event.Run the project and see the output.
+
+Create a JPA project and map two tables using one to many relationship

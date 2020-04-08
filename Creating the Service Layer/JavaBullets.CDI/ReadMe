@@ -1,0 +1,8 @@
+Open project javabullets_CDI.OpenentryFailure.xhtml
+
+Open Interface PaymentService see the code.Check the class PaymentServiceImpl implements interface PaymentService Add unimplemented method.Write the code.Write code in controller.Run on server.Enter the details and see the output.
+
+Create a interface PaymentService with a default method processPayments.Pass the parameter CreditCardDTO provide the body.Create a class DafaultPaymentServiceImpl extends PaymentService.use Annotation @Named("defaultPayment").Open EnterEventController and write the code.Publish the project start the server.Run the application.Enter the data see the fail.OpenPaymentService interface and add a static method hasFund return String .Create a Random class object in the method and check if ifrand.nextBoolean() returns Payment Successful else return Payment fail.Payment service method will return hasFund().Run and see the output.
+
+Create a JSF project on Liberty Server which will print hello world.
+
